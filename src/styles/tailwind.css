@@ -1,0 +1,24 @@
+*{
+    /* overflow : hidden; */
+    color : #fff;
+}
+
+body{
+    overflow-x: hidden
+}
+
+.swiper-pagination-bullet{
+    background-color: #fff !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0 !important;
+}
+
+@media only screen and (max-width: 600px){
+    .swiper-slide{
+        width: 220px !important;  
+    }
+}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
